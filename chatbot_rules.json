@@ -1,0 +1,27 @@
+{
+    "Greeting": {
+        "Voicebot": "Hi [Customer Name], I\u2019m Vidya from TEST Bank. I have an exciting offer for you! Convert your outstanding Credit Card balance into easy EMIs. Say yes to explore the option.",
+        "Responses": {
+            "Silent": "Sorry, I missed your response. Can you please confirm if you would be interested in converting your outstanding credit card balance to EMI?",
+            "Yes": "That's a great choice! You can convert your Credit Card outstanding amount...",
+            "No": "Alright, but this is the best opportunity to have an improved credit history...",
+            "Busy": "Okay! I understand that you are busy at the moment. I will call you later."
+        }
+    },
+    "Tenure Selection": {
+        "Message": "You can convert your Credit Card outstanding amount of INR [O/S Amount] into [Tenure 1], [Tenure 2], [Tenure 3], [Tenure 4], [Tenure 5], or [Tenure 6] equal monthly installments. Could you confirm your preferred EMI tenure?",
+        "Responses": {
+            "Confirm": "You have selected [Tenure X] months EMI plan. Your monthly installment will be INR [EMI X]...",
+            "Repeat": "Repeat the tenure options.",
+            "Adjust Tenure": "Offer alternative tenures.",
+            "Interest Rate": "Provide details about the interest rate."
+        }
+    },
+    "Interest Rate Inquiry": {
+        "Message": "Currently, the offered rate of interest is [ROI]% and this is the best in the market to your outstanding. So, could you choose your preferred tenure from [Tenure 1], [Tenure 2], [Tenure 3], [Tenure 4], [Tenure 5], or [Tenure 6] months to proceed with your request?",
+        "Responses": {
+            "Satisfied": "Proceed to confirm the tenure.",
+            "Not Satisfied": "End conversation politely."
+        }
+    }
+}
