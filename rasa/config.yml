@@ -1,0 +1,10 @@
+version: "3.1"
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+  - name: EntitySynonymMapper
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy

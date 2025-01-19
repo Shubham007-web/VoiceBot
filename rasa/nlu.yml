@@ -1,0 +1,44 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Good morning
+      - Hey Vidya
+
+  - intent: confirm
+    examples: |
+      - Yes
+      - Sure, continue
+      - Go ahead with the request
+
+  - intent: change_tenure
+    examples: |
+      - I want to change my tenure
+      - Please update my tenure
+      - Modify the duration
+
+  - intent: request_interest_rate
+    examples: |
+      - What is the interest rate?
+      - Can you tell me the current rate?
+      - What would the interest be?
+
+  - intent: deny
+    examples: |
+      - No
+      - I am not interested
+      - Not now, maybe later
+
+  - intent: ask_repeat
+    examples: |
+      - Repeat that, please
+      - Can you say that again?
+      - I missed that, please repeat
+
+  - intent: busy
+    examples: |
+      - Call me later
+      - I am busy now
+      - Not now, I’ll let you know later

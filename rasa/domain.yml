@@ -1,0 +1,35 @@
+version: "3.1"
+intents:
+  - greet
+  - confirm
+  - change_tenure
+  - request_interest_rate
+  - deny
+  - ask_repeat
+  - busy
+
+responses:
+  utter_greet:
+    - text: "Hi, [Customer Name], I’m Vidya from TEST Bank. I have an exciting offer for you!"
+
+  utter_confirm_tenure:
+    - text: "Great! You have selected {tenure} months EMI plan with an interest rate of {rate}%. Please confirm if I should proceed."
+
+  utter_tenure_change:
+    - text: "Alright! Please select your preferred tenure: [Tenure 1], [Tenure 2], [Tenure 3]."
+
+  utter_interest_rate:
+    - text: "The current interest rate is {rate}%. Shall I proceed?"
+
+  utter_not_interested:
+    - text: "Okay! Thank you, and have a great day!"
+
+  utter_repeat:
+    - text: "Sure! Let me repeat that for you."
+
+  utter_busy:
+    - text: "I understand you're busy. I’ll call you later. Have a nice day!"
+
+actions:
+  - action_fetch_interest_rate
+  - action_confirm_tenure

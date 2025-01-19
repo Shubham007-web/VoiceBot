@@ -1,0 +1,16 @@
+version: "3.1"
+rules:
+  - rule: Handle greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Handle busy customer
+    steps:
+      - intent: busy
+      - action: utter_busy
+
+  - rule: Handle repeat request
+    steps:
+      - intent: ask_repeat
+      - action: utter_repeat
