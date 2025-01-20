@@ -9,8 +9,7 @@ A Rasa-based voice bot to handle customer queries related to EMI conversions, in
 1. Install Python 3.8 or 3.9 (for Rasa compatibility).
 2. Install Anaconda 
 ### Setting Up the Virtual Environment
-1. Open the Anaconda Prompt.
-2. Create a new virtual environment:
+1. Create a new virtual environment:
    ```bash
    conda create -n env python=3.8 -y
 3. Activate the virtual environment
