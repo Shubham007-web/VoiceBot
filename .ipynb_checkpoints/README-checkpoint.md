@@ -12,10 +12,10 @@ A Rasa-based voice bot to handle customer queries related to EMI conversions, in
 1. Open the Anaconda Prompt.
 2. Create a new virtual environment:
    ```bash
-   conda create -n voicebot_env python=3.8 -y
+   conda create -n env python=3.8 -y
 3. Activate the virtual environment
    ```bash
-   conda activate voicebot_env
+   conda activate env
 4. Ensure pip is installed:
    ```bash
    conda install pip -y
