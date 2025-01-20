@@ -9,7 +9,7 @@ A Rasa-based voice bot to handle customer queries related to EMI conversions, in
 1. Install Python 3.8 or 3.9 (recommended for Rasa compatibility).
 2. Install pip (comes with Python).
 
-### Installing Required Packages (Windows Only)
+### Installing Required Packages
 
 #### 1. Install Rasa Framework
 ```bash
