@@ -23,4 +23,34 @@ A Rasa-based voice bot to handle customer queries related to EMI conversions, in
 5. Install Required Libraries
    ```bash
    pip install -r requirements.txt
+### Handling Special Cases
+1. PyAudio Installation
+   ```bash
+   pip install path_to_downloaded_whl_file
+2. Verify Installations
+   ```bash
+   pip list
+   rasa --version
+### Running the Project
+1. Train the model:
+   ```bash
+   rasa train
+2. Start the Rasa server
+   ```bash
+   rasa run
+3. Start the custom action server:
+   ```bash
+   rasa run actions
+4. Run the voice interface:
+   ```bash
+   python voice_interface.py
+   
+
+
+
+
+
+
+
+
 
