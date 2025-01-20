@@ -1,0 +1,10 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+  - intent: request_interest_rate
+    examples: |
+      - What is the interest rate?
+      - Can you tell me the current rate?

@@ -1,0 +1,16 @@
+version: "3.1"
+stories:
+  - story: Test Confirm EMI Tenure
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: confirm
+      - action: utter_confirm_tenure
+
+  - story: Test Change EMI Tenure
+    steps:
+      - intent: change_tenure
+      - action: utter_tenure_change
+      - intent: confirm
+      - action: utter_confirm_tenure
+

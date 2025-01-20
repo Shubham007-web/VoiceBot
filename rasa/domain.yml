@@ -33,3 +33,6 @@ responses:
 actions:
   - action_fetch_interest_rate
   - action_confirm_tenure
+
+
+
