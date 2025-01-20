@@ -1,0 +1,12 @@
+# Core Rasa Framework
+rasa
+rasa-sdk
+
+# Voice Integration
+SpeechRecognition  # For capturing and processing voice input
+gTTS              # For converting text-to-speech (Google Text-to-Speech)
+playsound          # For playing back audio files
+pyaudio            # Required by SpeechRecognition for microphone input
+requests           # For sending and receiving data between bot and scripts
+loguru             # For enhanced logging 
+pytest             
