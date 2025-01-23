@@ -1,0 +1,9 @@
+{
+  "0": "ask_repeat",
+  "1": "busy",
+  "2": "change_tenure",
+  "3": "confirm",
+  "4": "deny",
+  "5": "greet",
+  "6": "request_interest_rate"
+}

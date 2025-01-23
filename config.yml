@@ -1,10 +1,13 @@
+language: en
 version: "3.1"
 pipeline:
-  - name: WhitespaceTokenizer
-  - name: RegexFeaturizer
-  - name: CountVectorsFeaturizer
-  - name: DIETClassifier
-  - name: EntitySynonymMapper
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+- name: EntitySynonymMapper
+
 policies:
-  - name: MemoizationPolicy
-  - name: RulePolicy
+- name: MemoizationPolicy
+- name: RulePolicy
+assistant_id: 20250121-142532-faded-market
